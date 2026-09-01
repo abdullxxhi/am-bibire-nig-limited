@@ -6,25 +6,25 @@ import h20BeamLanaImg from '../assets/images/h20_beam_lana_blue_1788218515641.jp
 import jackFlatBasePlateImg from '../assets/images/jack_flat_base_plate_1788218530547.jpg';
 import uHeadJacksSetImg from '../assets/images/u_head_jacks_set_1788218545203.jpg';
 import tieRodImg from '../assets/images/tie_rod_different_sizes_1788219518457.jpg';
-import superPlateImg from '../assets/images/super_plate_nut_1788249824303.jpg';
-import forkHeadImg from '../assets/images/fork_head_4way_1788249810589.jpg';
-import basePlateImg from '../assets/images/base_plate_stem_1788249777920.jpg';
+import superPlateImg from '../assets/images/super-plate.jpeg';
+import forkHeadImg from '../assets/images/Fork-head.jpeg';
+import basePlateImg from '../assets/images/Base-plate.jpeg';
 import scaffoldingFrameworkImg from '../assets/images/scaffold_frame_unit_1788249796432.jpg';
-import casterWheelsImg from '../assets/images/caster_wheels_set_1788220101662.jpg';
-import galvWireClampsImg from '../assets/images/galv_wire_clamps_1788220115094.jpg';
-import pipeJoinersImg from '../assets/images/pipe_joiners_steel_1788220127949.jpg';
-import redTurningClampImg from '../assets/images/red_turning_clamp_1788220141843.jpg';
-import redJointClampImg from '../assets/images/red_joint_clamp_1788220155584.jpg';
-import fClampImg from '../assets/images/f_clamp_bar_1788220170083.jpg';
+import casterWheelsImg from '../assets/images/Caster-wheel.jpeg';
+import galvWireClampsImg from '../assets/images/Galvanised-turning-clamps.jpeg';
+import pipeJoinersImg from '../assets/images/Galvanised-joiner.jpeg';
+import redTurningClampImg from '../assets/images/red-turning-clamps.jpeg';
+import redJointClampImg from '../assets/images/red-joint-clamps.jpeg';
+import fClampImg from '../assets/images/F-clamp.jpeg';
 import blackSteelPipesImg from '../assets/images/black_pipes_warehouse_1788249862762.jpg';
-import steelPlankImg from '../assets/images/scaffold_planks_pair_1788249846714.jpg';
-import redFixedClampsImg from '../assets/images/red_fixed_clamps_1788220551315.jpg';
-import galvSteelPipesImg from '../assets/images/galv_steel_pipes_1788220565937.jpg';
+import steelPlankImg from '../assets/images/steel-plank.jpeg';
+import redFixedClampsImg from '../assets/images/red-fixed-clamps.jpeg';
+import galvSteelPipesImg from '../assets/images/Galvanised-pipes-in-different-sizes.jpeg';
 import marineBoardImg from '../assets/images/marine_board_film_1788220577902.jpg';
 import yellowBoardImg from '../assets/images/yellow_form_board_1788220592455.jpg';
-import springRapidClampImg from '../assets/images/spring_rapid_clamp_real.jpg';
-import adjustableSteelPropsImg from '../assets/images/adjustable_scaffolding_steel_props.jpg';
-import scaffoldingPipesTieRodImg from '../assets/images/scaffolding_pipes_and_tie_rod.jpg';
+import springRapidClampImg from '../assets/images/spring-rapid-clamp.jpeg';
+import adjustableSteelPropsImg from '../assets/images/Adjustable-Scaffolding-Steel-Props.jpeg';
+import scaffoldingPipesTieRodImg from '../assets/images/Scaffolding-Pipes-and-Tie Rod.jpeg';
 
 export const CATEGORIES_LIST = [
   { id: 'all', label: 'All Products', icon: 'Grid' },
