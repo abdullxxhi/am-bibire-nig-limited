@@ -6,22 +6,25 @@ import h20BeamLanaImg from '../assets/images/h20_beam_lana_blue_1788218515641.jp
 import jackFlatBasePlateImg from '../assets/images/jack_flat_base_plate_1788218530547.jpg';
 import uHeadJacksSetImg from '../assets/images/u_head_jacks_set_1788218545203.jpg';
 import tieRodImg from '../assets/images/tie_rod_different_sizes_1788219518457.jpg';
-import superPlateImg from '../assets/images/super_plate_cast_disk_1788219535458.jpg';
-import forkHeadImg from '../assets/images/fork_head_u_prop_1788219549214.jpg';
-import basePlateImg from '../assets/images/square_steel_base_plate_1788219563802.jpg';
-import scaffoldingFrameworkImg from '../assets/images/scaffolding_shoring_framework_1788219575937.jpg';
+import superPlateImg from '../assets/images/super_plate_nut_1788249824303.jpg';
+import forkHeadImg from '../assets/images/fork_head_4way_1788249810589.jpg';
+import basePlateImg from '../assets/images/base_plate_stem_1788249777920.jpg';
+import scaffoldingFrameworkImg from '../assets/images/scaffold_frame_unit_1788249796432.jpg';
 import casterWheelsImg from '../assets/images/caster_wheels_set_1788220101662.jpg';
 import galvWireClampsImg from '../assets/images/galv_wire_clamps_1788220115094.jpg';
 import pipeJoinersImg from '../assets/images/pipe_joiners_steel_1788220127949.jpg';
 import redTurningClampImg from '../assets/images/red_turning_clamp_1788220141843.jpg';
 import redJointClampImg from '../assets/images/red_joint_clamp_1788220155584.jpg';
 import fClampImg from '../assets/images/f_clamp_bar_1788220170083.jpg';
-import blackSteelPipesImg from '../assets/images/black_steel_pipes_1788220184517.jpg';
-import steelPlankImg from '../assets/images/steel_plank_hooks_1788220534668.jpg';
+import blackSteelPipesImg from '../assets/images/black_pipes_warehouse_1788249862762.jpg';
+import steelPlankImg from '../assets/images/scaffold_planks_pair_1788249846714.jpg';
 import redFixedClampsImg from '../assets/images/red_fixed_clamps_1788220551315.jpg';
 import galvSteelPipesImg from '../assets/images/galv_steel_pipes_1788220565937.jpg';
 import marineBoardImg from '../assets/images/marine_board_film_1788220577902.jpg';
 import yellowBoardImg from '../assets/images/yellow_form_board_1788220592455.jpg';
+import springRapidClampImg from '../assets/images/spring_rapid_clamp_real.jpg';
+import adjustableSteelPropsImg from '../assets/images/adjustable_scaffolding_steel_props.jpg';
+import scaffoldingPipesTieRodImg from '../assets/images/scaffolding_pipes_and_tie_rod.jpg';
 
 export const CATEGORIES_LIST = [
   { id: 'all', label: 'All Products', icon: 'Grid' },
@@ -107,19 +110,7 @@ export const PRODUCTS_DATA: Product[] = [
     applications: ['Beam Support', 'Heavy Formwork', 'Structural Shoring'],
   },
 
-  // 7-10: Formwork & Hardware Accessories
-  {
-    id: 'tie-rod',
-    name: 'Tie Rod – Different Sizes',
-    category: 'formwork-jacks',
-    categoryLabel: 'Formwork & Acrow Jacks',
-    shortDescription: 'High-tensile hot-rolled threaded steel tie rod used for tying opposing wall formwork panels securely during concrete pouring.',
-    variantsOrSizes: ['Different Lengths Available', 'Continuous High-Tensile Thread'],
-    imageUrl: tieRodImg,
-    altText: 'Tie Rod high tensile threaded bar for concrete formwork',
-    applications: ['Concrete Wall Casting', 'Column Formwork', 'Formwork Clamping'],
-    featured: true,
-  },
+  // Formwork & Hardware Accessories
   {
     id: 'super-plate',
     name: 'Super Plate',
@@ -309,6 +300,48 @@ export const PRODUCTS_DATA: Product[] = [
     imageUrl: yellowBoardImg,
     altText: 'Yellow Board 3-ply formwork shuttering panel',
     applications: ['Slab Formwork', 'Concrete Shuttering', 'Floor Decking'],
+    featured: true,
+  },
+
+  // 25: Spring Rapid Clamp
+  {
+    id: 'spring-rapid-clamp',
+    name: 'Spring Rapid Clamp',
+    category: 'clamps-connectors',
+    categoryLabel: 'Clamps & Couplers',
+    shortDescription: 'A quick fastening clamp used in scaffolding and construction applications to secure and connect components efficiently.',
+    variantsOrSizes: ['Quick Fastening Mechanism', 'High-Tension Spring Steel'],
+    imageUrl: springRapidClampImg,
+    altText: 'Spring Rapid Clamp for scaffolding and construction applications',
+    applications: ['Formwork Clamping', 'Scaffolding Connections', 'Rapid Fastening'],
+    featured: true,
+  },
+
+  // 26: Adjustable Scaffolding Steel Props
+  {
+    id: 'adjustable-scaffolding-steel-props',
+    name: 'Adjustable Scaffolding Steel Props',
+    category: 'scaffolding-support',
+    categoryLabel: 'Scaffolding & Support',
+    shortDescription: 'Adjustable steel support props used to provide temporary vertical support in construction and scaffolding applications. Available in 3.5m, 4m, 4.5m and 5m sizes.',
+    variantsOrSizes: ['3.5m', '4m', '4.5m', '5m'],
+    imageUrl: adjustableSteelPropsImg,
+    altText: 'Adjustable Scaffolding Steel Props available in 3.5m, 4m, 4.5m and 5m sizes',
+    applications: ['Slab Shoring', 'Temporary Vertical Support', 'Scaffolding Falsework'],
+    featured: true,
+  },
+
+  // 27: Scaffolding Pipes and Tie Rod
+  {
+    id: 'scaffolding-pipes-and-tie-rod',
+    name: 'Scaffolding Pipes and Tie Rod',
+    category: 'steel-pipes',
+    categoryLabel: 'Steel Pipes & Tubes',
+    shortDescription: 'Construction and scaffolding components used for creating support structures, bracing, fastening and formwork applications.',
+    variantsOrSizes: ['Scaffolding Pipes', 'Threaded Tie Rods', 'Multiple Diameters & Lengths'],
+    imageUrl: scaffoldingPipesTieRodImg,
+    altText: 'Scaffolding Pipes and Tie Rod construction and formwork components',
+    applications: ['Support Structures', 'Structural Bracing', 'Formwork Clamping'],
     featured: true,
   },
 ];
