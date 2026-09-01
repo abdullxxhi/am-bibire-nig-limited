@@ -12,6 +12,7 @@ import basePlateImg from '../assets/images/Base-plate.jpeg';
 import scaffoldingFrameworkImg from '../assets/images/scaffold_frame_unit_1788249796432.jpg';
 import casterWheelsImg from '../assets/images/Caster-wheel.jpeg';
 import galvWireClampsImg from '../assets/images/Galvanised-turning-clamps.jpeg';
+import galvanisedFixedClampsImg from '../assets/images/Galvanised-fixed-clamps.jpeg';
 import pipeJoinersImg from '../assets/images/Galvanised-joiner.jpeg';
 import redTurningClampImg from '../assets/images/red-turning-clamps.jpeg';
 import redJointClampImg from '../assets/images/red-joint-clamps.jpeg';
@@ -181,7 +182,7 @@ export const PRODUCTS_DATA: Product[] = [
     applications: ['Mobile Scaffolding', 'Rolling Towers', 'Industrial Transport'],
   },
 
-  // 15-20: Clamps & Connectors
+  // 15-21: Clamps & Connectors
   {
     id: 'galvanised-turning-clamps',
     name: 'Galvanised Turning Clamps',
@@ -192,6 +193,18 @@ export const PRODUCTS_DATA: Product[] = [
     imageUrl: galvWireClampsImg,
     altText: 'Galvanised Turning Clamps swivel coupler for scaffolding',
     applications: ['Diagonal Bracing', 'Angle Pipe Connection', 'Scaffolding Towers'],
+    featured: true,
+  },
+  {
+    id: 'galvanised-fixed-clamps',
+    name: 'Galvanised Fixed Clamps',
+    category: 'clamps-connectors',
+    categoryLabel: 'Clamps & Couplers',
+    shortDescription: 'Galvanised fixed clamp used to connect two scaffolding pipes at a rigid right angle for stable tube-and-clamp construction.',
+    variantsOrSizes: ['Galvanised Finish', 'Fixed Right-Angle Connection'],
+    imageUrl: galvanisedFixedClampsImg,
+    altText: 'Galvanised Fixed Clamps for rigid right-angle scaffolding pipe connections',
+    applications: ['Scaffolding Connections', 'Right-Angle Pipe Jointing', 'Structural Framing'],
     featured: true,
   },
   {
